@@ -1,0 +1,15 @@
+LangGraph is a library for building stateful, multi-actor applications with LLMs. It extends the LangChain expression language with the ability to coordinate multiple chains (or actors) across multiple steps of computation in a cyclic manner.
+
+The key concepts in LangGraph include:
+1. State Management: LangGraph maintains state across multiple steps of computation
+2. Nodes: Functions that can read and write to the state
+3. Edges: Define the flow between nodes
+4. Cycles: Allow for iterative processes
+
+LangGraph is particularly useful for building:
+- Chatbots with memory
+- Multi-step reasoning systems
+- Workflow automation
+- Agent-based applications
+
+The library provides a simple way to define complex workflows while maintaining clean separation of concerns between different components of your system.
